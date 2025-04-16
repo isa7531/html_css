@@ -1,8 +1,12 @@
 <style>
     a{
-        color: rgb(0, 113 133);
+        color: rgb(0, 113, 133);
         font-weight: bold;
-
+        transition: opacity 0.15s;
+    }
+    a:hover{
+        color: rgb(100, 100, 10);
+        opacity: 0.8;
     }
     .nombre-p{
         color:black;
@@ -16,7 +20,7 @@
     .envio-p{
         font-weight: bold;
     }
-    .añadir-button{
+    .agregar-button{
         background-color: rgb(255,216, 20);
         color: black;
         cursor: pointer;
@@ -25,36 +29,56 @@
         font-weight: bold;
         height: 36px;
         width: 200px;
+        transition: opacity 0.15s;
     }
-    .comprar-button{
-        background-color: rgb(255, 164, 28);
+    .agregar-button:hover{
+        opacity: 0.8;
+    }
+    .agregar-button:active{
+        opacity: 0.5;
+    }
+    .comprar-button {
+        background-color: rgb(254, 164, 28);
+        color: black;
         border-radius: 18px;
         border: none;
-        color: black;
         cursor: pointer;
         font-weight: bold;
         height: 36px;
         margin-left: 8px;
         width: 200px;
+        transition: opacity 0.15s;
+    }
+    .comprar-button:hover{
+        opacity: 0.8;
+    }
+    .comprar-button:active{
+        opacity: 0.5;
     }
 </style>
+
 <a href=" " target="_blank" >
     Volver a Amazon
 </a>
+
 <p class="nombre-p">
     Street Fighter II <br>
     Figura de acción de <br>
     Chun Li de 15 cm, <br>
 </p>
+
 <p class="precio-p">
     $536.24 Disponibles: 2.
 </p>
+
 <p class="envio-p">
     Envio gratuito mañana
 </p>
-<button class="añadir-button">
+
+<button class="agregar-button">
     Añadir al carrito
 </button>
+
 <button class="comprar-button">
     Comprar ahora
 </button>

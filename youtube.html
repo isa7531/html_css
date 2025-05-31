@@ -6,7 +6,7 @@
         </title>
         <style>
             .search-bar{
-                margin-bottom: 10px;
+                display: block;
             }
             .curso{
                 width: 300px;
@@ -22,21 +22,42 @@
             .video-stats{
                  margin-top: 2px;
             }
+            .video-preview{
+                width: 300px;
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 15px;
+            }
         </style>
     </head>
     <body>
 
         <input class="search-bar" type="text" placeholder="Search">
-        <img class="curso" src="htmlcurso.jpg">
-        <p class="video-title">
-            HTML & CSS Full Course-Beginner to Pro
-        </p>
-        <p class="video-autor">
-            SuperSimpleDev
-        </p>
-        <p class="video-stats">
-            14 M de visitas &#183; hace 3 años
+        <div class="video-preview">
+            <img class="curso" src="htmlcurso.jpg">
+            <p class="video-title">
+                HTML & CSS Full Course-Beginner to Pro
+            </p>
+            <p class="video-autor">
+                SuperSimpleDev
+            </p>
+            <p class="video-stats">
+                14 M  visitas &#183; hace 3 años
+            </p>
+        </div>
 
-        </p>
+        <div class="video-preview">
+            <img class="curso" src="csscurso.jpg">
+            <p class="video-title">
+                CURSO DE CSS COMPLETO: De Principiante a Front-End 2024
+            </p>
+            <p class="video-autor">
+                midulive
+            </p>
+            <p class="video-stats">
+                147 k  visitas &#183; hace 11 meses
+            </p>
+        </div>
+
     </body>
 </html>

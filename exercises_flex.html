@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        exercises flex
+        </title>
+        <style>
+            .e12a{
+                display: flex;
+                flex-direction: row;
+            }
+            .e12c{
+                display: flex;
+                flex-direction: row;
+                margin-top: 30px;
+                justify-content: space-between;
+            }
+            .e12cc{
+                background-color: lightpink;
+                width: 100px;
+            }
+            .e12g{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                height: 100px;
+                width: 400px;
+                justify-content: space-between;
+            }
+            .e12gg{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            .img12g{
+                width: 60px;
+                height: 60px;
+                border-radius: 30px;
+                border: none;
+            }
+            .buttone12g{
+                background-color: #008cf5;
+                color: white;
+                padding: 10px 15px 10px 15px;
+                border: none;
+                border-radius: 8px;
+            }
+            .e12f{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 30px;
+                padding: 10px 15px 10px 15px;
+                background-color: #9d5cdf;
+            }
+            .home{
+                text-decoration: none;
+                font-size: 18px;
+                padding: 10px 15px 10px 15px;
+                color: white;
+            }
+
+            .search{
+                border-radius: 20px;
+                border: none;
+                padding: 10px 15px 10px 15px;
+            }
+            .button-e12f{
+                background-color: #9d5cdf;
+                color: white;
+                padding: 10px 15px 10px 15px;
+                border-radius: 2px;
+                border-color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="e12a">
+            <div style="
+                background-color: lightblue;
+                width: 50px;
+                "> item1 </div>
+            <div style="
+                background-color: lightpink;
+                flex: 1;
+                "> item2 </div>
+             <div style="
+                background-color: lightblue;
+                width: 75px;
+                "> item3 </div>
+        </div>
+
+        <div class="e12c">
+            <div class="e12cc"> item1 </div>
+            <div class="e12cc"> item2 </div>
+            <div class="e12cc"> item3 </div>
+            <div class="e12cc"> item4 </div>
+        </div>
+
+
+
+        <div style="
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            margin-top: 30px;
+            ">
+            <div class="e12g">
+                <div class="e12gg">
+                    <div  style="margin-right: 15px;">
+                        <img  class="img12g" src="styles/rabit.webp">
+                    </div>
+                    <div>
+                        <p style="font-weight: bold;">
+                            Rex
+                        </p>
+                        <p style="color: grey;">
+                            Bonny rabit <br> Popular
+                        </p>
+                    </div>
+                </div>
+                <div>
+                   <button class="buttone12g">
+                        Follow
+                    </button>
+                </div>
+            </div>
+            <div class="e12g">
+                <div class="e12gg">
+                    <div  style="margin-right: 15px;">
+                        <img  class="img12g" src="styles/cat.webp">
+                    </div>
+                    <div>
+                        <p style="font-weight: bold;">
+                           Oliver
+                        </p>
+                        <p style="color: grey;">
+                            Little boy <br> Popular
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <button class="buttone12g">
+                        Follow
+                    </button>
+                </div>
+            </div>
+            <div class="e12g">
+                <div class="e12gg">
+                    <div  style="margin-right: 15px;">
+                        <img  class="img12g" src="styles/dog.webp">
+                    </div>
+                    <div>
+                        <p style="font-weight: bold;">
+                           Camila
+                        </p>
+                        <p style="color: grey;">
+                            Beautiful dog
+                        </p>
+                        <p style="font-size: 14px; color: grey; margin: 0;">
+                            Popular
+                        </p>
+                    </div>
+                </div>
+                <div >
+                    <button class="buttone12g">
+                        Follow
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="e12f">
+            <div>
+                <a class="home"  href=" " target="_blank"> Home </a>
+            </div>
+            <div>
+                <input class="search" name:"searchs"
+                id="searchs" placeholder="search">
+            </div>
+            <div>
+                <button class="button-e12f">
+                    Download
+                </button>
+            </div>
+        </div>
+    </body>
+</html>

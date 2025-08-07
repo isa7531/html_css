@@ -4,79 +4,30 @@
         <title>
             youtube.com  clone
         </title>
-        <style>
-            body{
-                margin: 0;
+        <link rel="stylesheet" href="styles/youtube.css">
 
-            }
-            .header{
-                height: 55px;
-
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-            }
-            .left-section{
-                background-color: lightblue;
-                width: 150px;
-            }
-            .middle-section{
-                flex: 1;
-                margin-left: 70px;
-                margin-right: 35px;
-                max-width: 400px;
-           }
-            .right-section{
-                background-color: lightblue;
-                width: 200px;
-            }
-            p{
-                font-family: Roboto, Arial;
-            }
-            .thumb{
-                width: 100%;
-            }
-            .video-title{
-                margin-top: 0;
-                font-size: 14px;
-                font-weight: 500;
-                line-height: 20px;
-                margin-bottom: 12px;
-            }
-            .video-autor, .vide-stats {
-                font-size: 12px;
-                color: rgb(96, 96, 96);
-            }
-
-            .video-autor{
-                margin-bottom: 4px;
-            }
-            .video-grid{
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                column-gap: 15px;
-                row-gap: 40px;
-            }
-            .video-inf-grid{
-                display: grid;
-                grid-template-columns: 50px 1fr;
-            }
-            .profile-pict{
-                width: 40px;
-                border-radius: 20px;
-            }
-            .thumb-row{
-                margin-bottom: 10px;
-            }
-        </style>
     </head>
     <body>
         <div class="header">
-            <div class="left-section"> left-section</div>
+            <div class="left-section">
+                <img  class="menu" src="styles/menu.svg">
+                <img class="youtube-logo" src="styles/youtube-logo.svg">
+            </div>
             <div class="middle-section">
                 <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="styles/search.svg">
+                </button>
+                <button class="voice-search-button">
+                    <img src="styles/voice-search-icon.svg">
+                </button>
             </div>
-            <div class="right-section"> right-section</div>
+            <div class="right-section">
+                <img class="upload-icon" src="styles/video.svg">
+                <img class="you-apps-icon" src="styles/youtube-apps.svg">
+                <img class="notifi-icon" src="styles/notifications.svg">
+                <img class="user-icon" src="styles/htmlcmin.jpg">
+            </div>
         </div>
       <div class="video-grid">
         <div class="video-preview">

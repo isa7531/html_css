@@ -1,0 +1,163 @@
+            .e12a{
+                display: flex;
+                flex-direction: row;
+            }
+            .e12c{
+                display: flex;
+                flex-direction: row;
+                margin-top: 30px;
+                justify-content: space-between;
+            }
+            .e12cc{
+                background-color: lightpink;
+                width: 100px;
+            }
+            .e12g{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                height: 100px;
+                width: 400px;
+                justify-content: space-between;
+            }
+            .e12gg{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            .img12g{
+                width: 60px;
+                height: 60px;
+                border-radius: 30px;
+                border: none;
+            }
+            .buttone12g{
+                background-color: #008cf5;
+                color: white;
+                padding: 10px 15px 10px 15px;
+                border: none;
+                border-radius: 8px;
+            }
+            .e12f{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 30px;
+                padding: 10px 15px 10px 15px;
+                background-color: #9d5cdf;
+            }
+            .home{
+                text-decoration: none;
+                font-size: 18px;
+                padding: 10px 15px 10px 15px;
+                color: white;
+            }
+
+            .search{
+                border-radius: 20px;
+                border: none;
+                padding: 10px 15px 10px 15px;
+            }
+            .button-e12f{
+                background-color: #9d5cdf;
+                color: white;
+                padding: 10px 15px 10px 15px;
+                border-radius: 2px;
+                border-color: white;
+            }
+
+            .e13c{
+                margin-top: 30px;
+            }
+            .e13c1{
+                color: grey;
+                margin-left: 15px;
+            }
+            .e13c2{
+                display: flex;
+                flex-direction: row;
+            }
+            .div-img{
+                width: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .img13c{
+                height: 50px;
+                width: 50px;
+                border-radius: 25px;
+            }
+            .e13c22{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: 0;
+            }
+            .e13cp11{
+                font-weight: bold;
+                font-size: 16px;
+            }
+            .e13cp1{
+                font-weight: bold;
+                font-size: 14px;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .e13cp2{
+                color: grey;
+            }
+            .e13f{
+                display: flex;
+                flex-direction: row;
+                margin-top: 50px;
+            }
+            .e13f-div-img{
+                display: flex;
+                width: 90px;
+                margin-top: 20px;
+                justify-content: center;
+            }
+            .e13fimg{
+                width: 70px;
+                height: 70px;
+                border-radius: 35px;
+            }
+            .e13f2{
+                display: flex;
+                flex-direction: column;
+            }
+            .e13fbor{
+                border-radius: 20px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: grey;
+                display: flex;
+                flex-direction: row;
+            }
+            .e13fe1{
+                background-color: rgb(192, 192, 192);
+                width: 110px;
+                border-radius: 20px 0px 0px 20px;
+                border-width: 1px;
+                border-style: solid;
+            }
+            .e13p111{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 0px;
+            }
+            .e13fp1{
+                font-weight: bold;
+                margin-right: 10px;
+            }
+            .e13fp2{
+                color: grey;
+            }
+            .e13fp3{
+                margin-top: 0px;
+            }
+            .e13fe2{
+                margin-left: 20px;
+            }
+
